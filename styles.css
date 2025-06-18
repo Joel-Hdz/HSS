@@ -11,10 +11,26 @@ span.hss {
     z-index: 2;
 }
 
-.footer,
-.About,
-.DedicatedRuns {
-    background-color: rgb(3, 3, 44);
+.About {
+    background: linear-gradient(135deg, black 0%, rgb(5, 6, 53) 100%);
+}
+
+.footer {
+    background: rgb(3, 3, 31);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DarkButton {
+    background-color: rgb(10, 11, 82);
+}
+
+.BlueText {
+    color: rgb(10, 11, 82);
+    font-weight: bold;
 }
 
 .Solutions,
@@ -27,7 +43,7 @@ span.hss {
 }
 
 .NewsLetter {
-    background-color: rgb(3, 3, 44);
+    background: radial-gradient(circle at center, rgb(3, 4, 34) 25%, #000000 100%);
     color: #fff;
     padding: 2rem 0;
     justify-content: center;
@@ -41,4 +57,40 @@ span.hss {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.hero {
+    background-image:
+        radial-gradient(circle at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%),
+        url('images/Wiring.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-text {
+    color: #fff;
+    border-radius: 10px;
+}
+
+.CustomWiring {
+    background: linear-gradient(135deg, rgb(5, 6, 53) 0%, #000000 100%);
+    color: #fff;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.TechHelp {
+    background: radial-gradient(circle at center, rgb(0, 2, 131) 0%, #000000 100%);
+    color: #fff;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
 }

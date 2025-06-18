@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
         <div class="container-fluid">
             <!-- Brand: Logo and Text -->
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="images/CompanyLogo.png" alt="Company logo" class="img-fluid"
                     style="max-width: 150px; height: auto; margin-right: 10px;">
-                <span class="d-none d-sm-inline">Hernandez Signal Solutions</span>
+                <h4 class="d-none d-sm-inline">Hernandez Signal Solutions</h4>
             </a>
             <!-- Toggler for mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -31,30 +31,29 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link active" href="#Solutions">Solutions</a>
                     <a class="nav-link active" href="#About">About</a>
-                    <button class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#builderModal">Request
+                    <button class="DarkButton btn text-light ms-3" data-bs-toggle="modal"
+                        data-bs-target="#builderModal">Request
                         Free Quote!</button>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container p-4 "></div> <!-- Spacer for fixed navbar -->
+    <div class="container p-5 "></div> <!-- Spacer for fixed navbar -->
     <section class="hero" id="hero" href="#">
-        <div class="container mt-5 mb-5 p-5 pt-5">
-            <div class="row align-items-center g-4">
-                <div class="col-md-6">
-                    <h1>Signal Solutions in DFW</h1>
-                    <p>
+        <div class="container pt-5">
+            <div class="row align-items-center g-4 p-md-5">
+                <div class="hero-text text-white">
+                    <h1>Singal Solutions</h1>
+                    <p class="lead  d-none d-md-block">
                         Hernandez Signal Solutions is a leading provider of traffic signal solutions in the Dallas-Fort
                         Worth
                         area. We specialize in designing, installing, and maintaining traffic signal systems that
                         enhance
                         network reliability, and improve network coverage.
+                    <p class="lead">We are committed to delivering high-quality
+                        solutions that meet the unique needs of our clients.
                     </p>
-                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#builderModal">Request
-                        info</button>
-                </div>
-                <div class=" col-md-6">
-                    <img src="images/Wiring.jpg" alt="Technician wiring" class="img-fluid d-none d-md-inline">
+                    </p>
                 </div>
             </div>
     </section>
@@ -73,13 +72,14 @@
         </div>
     </div>
     <section class="Solutions bg-light" id="Solutions" href="#">
-        <div class="container mt-5 mb-5 py-5">
-            <h2>Network Issues? Heres how we can help.</h2>
+        <div class="container-fluid mb-5 py-5">
+            <h2 class="BlueText px-5">Network Issues? Heres how we can help.</h2>
             <div class="row g-4 mt-4">
-                <div class="col-md-4 d-flex align-items-stretch">
+                <div class="col-md-4 d-flex align-items-stretch p-md-5 p-3">
                     <div class="card shadow-lg h-100">
                         <img src="images/PreWiring.jpg" class="card-img-top" alt="Home under construction">
-                        <div class="card-body">
+                        <div class="card-body p-md-4">
+                            <h5 class="card-title BlueText">Pre-Wiring</h5>
                             <p class="card-text">We offer professional pre-wiring services for home builders and
                                 new
                                 construction projects, ensuring your properties are ready for modern networking,
@@ -87,21 +87,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-stretch">
+                <div class="col-md-4 d-flex align-items-stretch p-md-5 p-3">
                     <div class="card shadow-lg h-100">
                         <img src="images/HomeOffice.jpg" class="card-img-top" alt="Home office setup">
-                        <div class="card-body">
-                            <p class="card-text">Struggling with slow or unreliable office internet? We install
-                                dedicated hardwired network lines to eliminate dead zones and keep your business
+                        <div class="card-body p-md-4">
+                            <h5 class="card-title BlueText">Hardwired for Performance</h5>
+                            <p class="card-text">Struggling with slow or unreliable internet? We install
+                                dedicated hardwired network lines to eliminate dead zones and keep you
                                 connected at top speed.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-stretch">
+                <div class="col-md-4 d-flex align-items-stretch p-md-5 p-3">
                     <div class="card shadow-lg h-100">
                         <img src="images/HomeTheater.jpg" class="card-img-top" alt="Home theater setup">
-                        <div class="card-body">
-                            <p class="card-text">We provide expert home theater wiring services, ensuring
+                        <div class="card-body p-md-4">
+                            <h5 class="card-title BlueText">Custom Wiring</h5>
+                            <p class="card-text">We provide expert media wiring services, ensuring
                                 seamless
                                 connectivity and high-quality performance—just like our office network
                                 solutions,
@@ -114,25 +116,58 @@
 
         </div>
     </section>
+    <section class="TechHelp text-light py-5">
+        <div class="container text-light pb-3">
+            <h1>New Services !</h1>
+        </div>
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="images/TechHelp.jpg" alt="Helping with technology" class="img-fluid rounded shadow"
+                        style=" width: 100%;">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold pb-3">Tech Guidance</h2>
+                    <p class="lead">
+                        Are you—or someone you know—feeling left behind by new technology? We offer friendly, patient,
+                        in-home or remote help to get you up to speed with the latest devices, smart home features, and
+                        internet services.
+                    </p>
+                    <ul>
+                        <li>Personalized setup and training for phones, tablets, computers, and smart TVs</li>
+                        <li>Guidance for smart home devices, video calls, and online safety</li>
+                        <li>Perfect for seniors and anyone hesitant about new tech</li>
+                        <li>Available for in-home visits or remote support</li>
+                    </ul>
+                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal">
+                        Request Tech Help
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="BuilderServices bg-light bg-gradient py-5" id="BuilderServices">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-md-6">
-                    <h2 class="fw-bold text-primary">Pre-Wiring Services for Builders</h2>
+                    <h2 class="fw-bold" style="color: rgb(10, 11, 82);">Pre-Wiring Services for Builders</h2>
                     <p class="lead">
                         Are you a builder or contractor looking for a reliable partner for low-voltage pre-wiring?
                         Hernandez Signal Solutions specializes in professional, code-compliant wiring for new
                         construction and remodels.
                     </p>
                     <ul>
-                        <li>Structured cabling for internet, security, and A/V</li>
+                        <li>Home security system wiring (cameras, sensors, alarms)</li>
+                        <li>Structured cabling for high-speed internet and networking</li>
+                        <li>Audio/Video pre-wiring for home theaters and entertainment systems</li>
+                        <li>Smart home wiring for lighting, thermostats, and more</li>
                         <li>Flexible scheduling to fit your build timeline</li>
-                        <li>Clean, organized installs that make inspections easy</li>
                         <li>Experience with both residential and commercial projects</li>
                     </ul>
-                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#builderModal">
-                        Request Builder Info
+                    <button class="DarkButton text-light btn mt-3" data-bs-toggle="modal"
+                        data-bs-target="#builderModal">
+                        Request Pre-Wiring Services
                     </button>
                 </div>
                 <div class="col-md-6 text-center">
@@ -142,36 +177,7 @@
             </div>
         </div>
     </section>
-    <section class="DedicatedRuns  text-white py-5" id="DedicatedRuns">
-        <div class="container">
-            <div class="row align-items-center g-4">
-                <div class="col-md-6 text-center mb-4 mb-md-0">
-                    <img src="images/HomeOffice.jpg" alt="Dedicated network run" class="img-fluid rounded shadow"
-                        style=" width: 100%;">
-                </div>
-                <div class="col-md-6">
-                    <h2 class="fw-bold">Boost Your Network with Dedicated Runs</h2>
-                    <p class="lead">
-                        Tired of lag, buffering, or unreliable Wi-Fi? We install dedicated hardwired network lines for:
-                    </p>
-                    <ul>
-                        <li>Home offices & remote work</li>
-                        <li>Gaming setups for ultra-low latency</li>
-                        <li>Access points to eliminate Wi-Fi dead zones</li>
-                        <li>Smart TVs, streaming devices, and more</li>
-                    </ul>
-                    <p>
-                        Enjoy faster speeds, rock-solid connections, and a network that keeps up with your lifestyle.
-                        Perfect for families, gamers, and anyone who needs reliable internet—everywhere in the house.
-                    </p>
-                    <button class="btn btn-light mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal">
-                        Request a Dedicated Run
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="CustomWiring bg-dark bg-gradient text-white py-5" id="CustomWiring">
+    <section class="CustomWiring text-white my-5 py-5" id="CustomWiring">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-md-6">
@@ -190,7 +196,7 @@
                         Enjoy immersive sound, stunning visuals, and reliable connections—indoors or out. We design and
                         install wiring solutions tailored to your entertainment needs.
                     </p>
-                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal">
+                    <button class="btn btn-light mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal">
                         Request Custom Wiring
                     </button>
 
@@ -202,32 +208,38 @@
             </div>
         </div>
     </section>
-    <section class="TechHelp text-dark bg-gradient py-5">
+    <section class="DedicatedRuns  text-dark py-5" id="DedicatedRuns">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-md-6 text-center mb-4 mb-md-0">
-                    <img src="images/TechHelp.jpg" alt="Helping with technology" class="img-fluid rounded shadow"
+                    <img src="images/HappyCx.jpg" alt="Dedicated network run" class="img-fluid rounded shadow"
                         style=" width: 100%;">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="fw-bold">Our Up-to-Speed Service</h2>
+                    <h2 class="fw-bold">Reliable Connection</h2>
                     <p class="lead">
-                        Are you—or someone you know—feeling left behind by new technology? We offer friendly, patient,
-                        in-home or remote help to get you up to speed with the latest devices, smart home features, and
-                        internet services.
+                        Tired of lag, buffering, or unreliable Wi-Fi? We install dedicated hardwired network lines for:
                     </p>
                     <ul>
-                        <li>Personalized setup and training for phones, tablets, computers, and smart TVs</li>
-                        <li>Guidance for smart home devices, video calls, and online safety</li>
-                        <li>Perfect for seniors and anyone hesitant about new tech</li>
+                        <li>Home offices & remote work</li>
+                        <li>Gaming setups for ultra-low latency</li>
+                        <li>Access points to eliminate Wi-Fi dead zones</li>
+                        <li>Smart TVs, streaming devices, and more</li>
                     </ul>
-                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal">
-                        Request Tech Help
+                    <p>
+                        Enjoy faster speeds, rock-solid connections, and a network that keeps up with your lifestyle.
+                        Perfect for families, gamers, and anyone who needs reliable internet—everywhere in the house.
+                    </p>
+                    <button class="btn mt-3" data-bs-toggle="modal" data-bs-target="#newsletterModal"
+                        style="background-color: rgb(3, 3, 44); color: white;">
+                        Request a Dedicated Run
                     </button>
                 </div>
             </div>
         </div>
     </section>
+
+
     <section class="About" id="About">
         <div class="container p-5">
             <div class="text-light row align-items-center g-4 justify-content-between">
@@ -249,7 +261,7 @@
                             it takes to get the job done right.
                         </p>
                         <p>
-                            Whether it's new construction or a retrofit, we ensure every wire we run sets the
+                            Whether it's new construction or a custom job, we ensure every wire we run sets the
                             foundation for strong, seamless connections.
                             We value trust, integrity, and craftsmanship. We're not just wiring
                             buildings—we're building reliable networks that power homes, businesses, and
